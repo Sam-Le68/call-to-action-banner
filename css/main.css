@@ -7,6 +7,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   overflow: hidden;
   position: relative;
@@ -14,6 +18,7 @@ section {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .banner {
@@ -27,7 +32,7 @@ section {
 
 .img-flex {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .content {
