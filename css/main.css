@@ -36,13 +36,10 @@ section {
 }
 
 .content {
+  display: block;
   max-width: 20em;
   width: 100%;
   margin: 0;
-}
-
-.logo {
-  margin-right: 2rem;
 }
 
 h2 {
@@ -56,4 +53,22 @@ p {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  padding: .4em .75em .3em;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: black;
 }
