@@ -42,11 +42,16 @@ section {
   margin: .65rem 1.2rem 1.25rem;
 }
 
+.banner-left {
+  margin: 2rem 1rem 0 0;
+  padding-top: .5rem;
+}
+
 .content {
   display: block;
   max-width: 24em;
   width: 100%;
-  margin: 1rem .5em 0 0;
+  margin: 1rem .5em 0 .7rem;
 }
 
 h2 {
@@ -62,6 +67,7 @@ p {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
   margin-top: .6rem;
+  margin-right: .5rem;
 }
 
 .btn {
@@ -70,7 +76,7 @@ p {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
-  padding: .4em .75em .3em;
+  padding: .7em .75em;
   border-radius: 10px;
   background-color: #333;
 }
