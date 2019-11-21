@@ -37,21 +37,15 @@ section {
   width: 100%;
 }
 
-.banner .img-flex {
-  max-width: 204px;
-  margin: .65rem 1.2rem 1.25rem;
-}
-
 .banner-left {
-  margin: 2rem 1rem 0 0;
-  padding-top: .5rem;
+  padding: 0 3rem 3rem;
 }
 
 .content {
   display: block;
   max-width: 24em;
   width: 100%;
-  margin: 1rem .5em 0 .7rem;
+  margin: .8rem .5em 0 .5rem;
 }
 
 h2 {
@@ -76,7 +70,7 @@ p {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
-  padding: .7em .75em;
+  padding: .6em .75em;
   border-radius: 10px;
   background-color: #333;
 }
