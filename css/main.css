@@ -27,7 +27,7 @@ section {
   width: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 45%;
   display: flex;
   align-items: flex-start;
 }
@@ -38,14 +38,14 @@ section {
 }
 
 .banner-left {
-  padding: 0 3rem 3rem;
+  padding: 0 2rem 1.1rem 1rem;
 }
 
 .content {
   display: block;
   max-width: 24em;
   width: 100%;
-  margin: .8rem .5em 0 .5rem;
+  margin: 0 .5em 1em 0;
 }
 
 h2 {
@@ -53,6 +53,7 @@ h2 {
   font-size: 3rem;
   font-weight: bold;
   margin: 0;
+  margin-left: 7px;
   line-height: 1.2;
   max-width: 23rem;
 }
@@ -60,8 +61,7 @@ h2 {
 p {
   font-family: Roboto, sans-serif;
   font-size: 1.5rem;
-  margin-top: .6rem;
-  margin-right: .5rem;
+  margin: .6rem .5rem 14px 0;
 }
 
 .btn {
@@ -70,7 +70,7 @@ p {
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
-  padding: .6em .75em;
+  padding: .6em 1.2em;
   border-radius: 10px;
   background-color: #333;
 }
